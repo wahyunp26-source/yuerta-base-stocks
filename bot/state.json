@@ -1,0 +1,600 @@
+{
+  "timestamp": "2026-11-17T12:34:53.795Z",
+  "mode": "LIVE",
+  "chainId": 84532,
+  "prices": {
+    "AAPL": {
+      "price": 352.7799987792969,
+      "sma5": 353.61400146484374,
+      "sma20": 346.6425018310547,
+      "rsi": 55.22974186361604,
+      "momentum": -0.009795914171825097,
+      "signal": "BUY",
+      "reason": "Uptrend: 5d SMA $353.61 above 20d SMA $346.64, RSI 55.2 below 70."
+    },
+    "NVDA": {
+      "price": 156.13999938964844,
+      "sma5": 165.56000061035155,
+      "sma20": 195.64100189208983,
+      "rsi": 22.347299975307607,
+      "momentum": -0.04120360124274095,
+      "signal": "SELL",
+      "reason": "Downtrend: 5d SMA $165.56 below 20d SMA $195.64, RSI 22.3."
+    },
+    "MSFT": {
+      "price": 517.989990234375,
+      "sma5": 523.8319946289063,
+      "sma20": 528.6094970703125,
+      "rsi": 44.1063888469379,
+      "momentum": -0.011243060612238953,
+      "signal": "SELL",
+      "reason": "Downtrend: 5d SMA $523.83 below 20d SMA $528.61, RSI 44.1."
+    },
+    "TSLA": {
+      "price": 379.739990234375,
+      "sma5": 387.6059997558594,
+      "sma20": 385.9444976806641,
+      "rsi": 52.07066710001171,
+      "momentum": -0.026856673039680437,
+      "signal": "BUY",
+      "reason": "Uptrend: 5d SMA $387.61 above 20d SMA $385.94, RSI 52.1 below 70."
+    },
+    "AMZN": {
+      "price": 257.75,
+      "sma5": 265.7780029296875,
+      "sma20": 257.0995002746582,
+      "rsi": 45.38267555663794,
+      "momentum": -0.033413348607762836,
+      "signal": "BUY",
+      "reason": "Uptrend: 5d SMA $265.78 above 20d SMA $257.10, RSI 45.4 below 70."
+    },
+    "GOOGL": {
+      "price": 283.7200012207031,
+      "sma5": 291.80400390625,
+      "sma20": 300.39349975585935,
+      "rsi": 27.104649919411244,
+      "momentum": -0.04074107664930042,
+      "signal": "SELL",
+      "reason": "Downtrend: 5d SMA $291.80 below 20d SMA $300.39, RSI 27.1."
+    },
+    "META": {
+      "price": 626.4099731445312,
+      "sma5": 632.3739990234375,
+      "sma20": 633.1110015869141,
+      "rsi": 35.81126877905871,
+      "momentum": -0.023812166682883988,
+      "signal": "SELL",
+      "reason": "Downtrend: 5d SMA $632.37 below 20d SMA $633.11, RSI 35.8."
+    },
+    "AMD": {
+      "price": 504.2799987792969,
+      "sma5": 538.3500061035156,
+      "sma20": 517.3334976196289,
+      "rsi": 46.53928366089622,
+      "momentum": -0.05576152289149797,
+      "signal": "BUY",
+      "reason": "Uptrend: 5d SMA $538.35 above 20d SMA $517.33, RSI 46.5 below 70."
+    }
+  },
+  "signals": [
+    {
+      "ticker": "AAPL",
+      "signal": "BUY",
+      "reason": "Uptrend: 5d SMA $353.61 above 20d SMA $346.64, RSI 55.2 below 70."
+    },
+    {
+      "ticker": "NVDA",
+      "signal": "SELL",
+      "reason": "Downtrend: 5d SMA $165.56 below 20d SMA $195.64, RSI 22.3."
+    },
+    {
+      "ticker": "MSFT",
+      "signal": "SELL",
+      "reason": "Downtrend: 5d SMA $523.83 below 20d SMA $528.61, RSI 44.1."
+    },
+    {
+      "ticker": "TSLA",
+      "signal": "BUY",
+      "reason": "Uptrend: 5d SMA $387.61 above 20d SMA $385.94, RSI 52.1 below 70."
+    },
+    {
+      "ticker": "AMZN",
+      "signal": "BUY",
+      "reason": "Uptrend: 5d SMA $265.78 above 20d SMA $257.10, RSI 45.4 below 70."
+    },
+    {
+      "ticker": "GOOGL",
+      "signal": "SELL",
+      "reason": "Downtrend: 5d SMA $291.80 below 20d SMA $300.39, RSI 27.1."
+    },
+    {
+      "ticker": "META",
+      "signal": "SELL",
+      "reason": "Downtrend: 5d SMA $632.37 below 20d SMA $633.11, RSI 35.8."
+    },
+    {
+      "ticker": "AMD",
+      "signal": "BUY",
+      "reason": "Uptrend: 5d SMA $538.35 above 20d SMA $517.33, RSI 46.5 below 70."
+    }
+  ],
+  "positions": {
+    "tusdc": 2000,
+    "stocks": {
+      "AAPL": 14.06177664,
+      "NVDA": 0,
+      "MSFT": 0,
+      "TSLA": 12.97255607,
+      "AMZN": 15.21386526,
+      "GOOGL": 0,
+      "META": 0,
+      "AMD": 7.68781532
+    }
+  },
+  "pnlEstimate": {
+    "mode": "live",
+    "portfolioValueUsd": 19685.097132180686,
+    "note": "Live portfolio market value (tUSDC + stock at oracle price). No cost basis tracked on-chain yet."
+  },
+  "lastTrades": [
+    {
+      "type": "setPrice",
+      "ticker": "META",
+      "tx": "0x4bd81d9e1b115af7a57a26f14aad7162bd2c79a1008003d12f92286dd3807121",
+      "at": "2026-11-16T12:35:08.894Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AMD",
+      "tx": "0x20a4b5f0c0b1c2259ef68ec57b89b9c7b2fb3d14cdcd9abea3ed0a7787f3928e",
+      "at": "2026-11-16T12:35:08.894Z"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "AAPL",
+      "side": "BUY",
+      "tx": "0x98aefd0a0d11babf62b01fe7944e02d7040bef4cc72da80e426069839b4133f5",
+      "at": "2026-11-16T12:35:08.894Z"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "TSLA",
+      "side": "BUY",
+      "tx": "0x67b1ceb26bf1e0b40823f1597f4ceaa7baae71a94f5c82d53eee3e37f240439f",
+      "at": "2026-11-16T12:35:08.894Z"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "AMZN",
+      "side": "BUY",
+      "tx": "0x4c751ce01b05a6283fcb0486c620ed8a775bda4e797e19c9f697708e72c57f51",
+      "at": "2026-11-16T12:35:08.894Z"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "AMD",
+      "side": "BUY",
+      "tx": "0x8911529d28887c481b313bf0a6a4c6f864bc7bdd245b5e201e11ef3e07efa6d3",
+      "at": "2026-11-16T12:35:08.894Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AAPL",
+      "tx": "0x44a701e206a57414eb5bec21e3e2c23b44f6bedd69702c8413737c0b8e7ad14c",
+      "at": "2026-11-16T20:34:29.074Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "NVDA",
+      "tx": "0x420f9476bc20abacb744b5d326a08e0d27c2ba61ae2cda796368094d5a296fde",
+      "at": "2026-11-16T20:34:29.074Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "MSFT",
+      "tx": "0x4479a20b0ac884ca9a223bfbebb9f9d27512a1605abb27298ab80a7317b94095",
+      "at": "2026-11-16T20:34:29.074Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "TSLA",
+      "tx": "0xd3fa4dcb0f7df1c1abd11545ae7972a30aac1cf02035b089b7910ddd53c9a86e",
+      "at": "2026-11-16T20:34:29.074Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AMZN",
+      "tx": "0xa74dd1fd842abed4ef1405ccf14a5e84f31a12b09a8b31116ff34d02d9fb8ca5",
+      "at": "2026-11-16T20:34:29.074Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "GOOGL",
+      "tx": "0x32ab9bdfa9ca354b3b8c02f5035440787528867c1b88665f51aa2e990c38e242",
+      "at": "2026-11-16T20:34:29.074Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "META",
+      "tx": "0x9dd7edbc4d788eb9472a5212641f9350b1dc61fa218d17019b85e8c7495d9546",
+      "at": "2026-11-16T20:34:29.074Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AMD",
+      "tx": "0xc69f3db3f3c4cf99d0ff7efccce878e4afd1b73dbdff32b6311c69a166f97bee",
+      "at": "2026-11-16T20:34:29.074Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AAPL",
+      "tx": "0x53e17053e399b6ae86c75ef6e487786cce519b79d5e8996449ef1685e38d8e36",
+      "at": "2026-11-17T00:34:36.014Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "NVDA",
+      "tx": "0x2950577f96e29f1b6840ca0c4bed9a4df6466c42a6025aa0e33ecbd5b9696829",
+      "at": "2026-11-17T00:34:36.015Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "MSFT",
+      "tx": "0x5bfc50483385e0e1c3415ef580b7589f80d992c952b0e4f14c7366bacec4d9f0",
+      "at": "2026-11-17T00:34:36.015Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "TSLA",
+      "tx": "0xc6c27878b3cb7c81e9baf0f011fb584f45e53f9308f6b750b66e76594f0e9ac6",
+      "at": "2026-11-17T00:34:36.015Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AMZN",
+      "tx": "0x0b60649c59e89124a0a5ae83d2bd4c675810c783f7c089e64f2fe888d54c92c9",
+      "at": "2026-11-17T00:34:36.015Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "GOOGL",
+      "tx": "0xe6293722f37195c4ee5de49861fff994fe1c85c4afd62df6837d0fd113a634e2",
+      "at": "2026-11-17T00:34:36.015Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "META",
+      "tx": "0x35ef9130e1c85a631382931459ac7895dee38e0a0c4505459eeec4bc2ffdc7e0",
+      "at": "2026-11-17T00:34:36.015Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AMD",
+      "tx": "0x400168d0d93198b7613484cf90b930db12f56ac374c1a8abf782544102b27d34",
+      "at": "2026-11-17T00:34:36.015Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AAPL",
+      "tx": "0x4aeb3b71733780c4537dc1a0ca4857049f7680ccf58d0a3afd0ff4d0f28be792",
+      "at": "2026-11-17T04:34:23.859Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "NVDA",
+      "tx": "0xc3dcfe8404108a51c2a7511a08764e5818237183c26aba66121eba1eabdfa9c3",
+      "at": "2026-11-17T04:34:23.859Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "MSFT",
+      "tx": "0xf1a67c488a9eb73a8a70db652b8dbc0359774563ccab28062fa158df0632b2e6",
+      "at": "2026-11-17T04:34:23.859Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "TSLA",
+      "tx": "0x0b9aeea0a324990cf34709986f1fdfc4edaf32849816dbbdb88c05d9d1e7ae6d",
+      "at": "2026-11-17T04:34:23.859Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AMZN",
+      "tx": "0x59cb0e2fd08960739d9d946794652855b0f35a9c987c008f2c021548c3de4d70",
+      "at": "2026-11-17T04:34:23.859Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "GOOGL",
+      "tx": "0xb2315e245046634c95c88c298dfc4050a114c733b7724d8e91bd0eece3df2467",
+      "at": "2026-11-17T04:34:23.859Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "META",
+      "tx": "0xacaf4415c9589b9a582e1f35462ef1a4c2638d69e3ac7b502c23581b749eb64d",
+      "at": "2026-11-17T04:34:23.859Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AMD",
+      "tx": "0x311c120a540d4d130e3500542151e8168e6d156f10483cf494ed273648e29b70",
+      "at": "2026-11-17T04:34:23.859Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AAPL",
+      "tx": "0xdcfa89c0b1ab5eaff5358654afcaa1117b3f07d07350df9913b9d620dda2d88c",
+      "at": "2026-11-17T08:34:34.846Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "NVDA",
+      "tx": "0xe743a1106c4e91eeb9fbeda0f085f07c544127242d5ce68ed7e45cf1b3dbc7b9",
+      "at": "2026-11-17T08:34:34.846Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "MSFT",
+      "tx": "0x0d6604982a5b9de1c258ae35a5185ffd51a2ee69d8a3b323ddfccb8d1168f9be",
+      "at": "2026-11-17T08:34:34.846Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "TSLA",
+      "tx": "0x9071af9c31325e36f8dc9f17332e54a9f8db3563211fca36da947709026197d5",
+      "at": "2026-11-17T08:34:34.846Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AMZN",
+      "tx": "0x96df285a938816a47c07c451a5098b9c1d4cbd491c2a96d8e27ee5326a277e9f",
+      "at": "2026-11-17T08:34:34.846Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "GOOGL",
+      "tx": "0x97ef3256b97475bc329ef7deadacd87f3037611bcc9b8ebfd5387b9c45ed486e",
+      "at": "2026-11-17T08:34:34.846Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "META",
+      "tx": "0x0efd5f195eca02221deee7fa49fb58c5bfa5326166326f0160b7044b66b8269e",
+      "at": "2026-11-17T08:34:34.846Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AMD",
+      "tx": "0xb04b06e45e3b02da121ad61c9f9b220647541978ed7d182fa5da5e9c036fae62",
+      "at": "2026-11-17T08:34:34.846Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AAPL",
+      "tx": "0x16f7cbd18607be75c84738629377c77be209507d50f0c45ea25ee3abd056b330",
+      "at": "2026-11-17T08:36:41.946Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "NVDA",
+      "tx": "0x11e069d01d96e2ad9934c262959bbaaea14c31c628112d12db9cbb857219413d",
+      "at": "2026-11-17T08:36:41.946Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "MSFT",
+      "tx": "0x8f215a4c0820cb038c5b3d9836653152956190016207ed81f9cabecae2b1cde6",
+      "at": "2026-11-17T08:36:41.946Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "TSLA",
+      "tx": "0xd1f43c1b83e18c36805771bb2afc56f7a743ec6a2a493c6ee237aa104edce59e",
+      "at": "2026-11-17T08:36:41.946Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AMZN",
+      "tx": "0x0bf72b506554d47f67a296a021f64771b11cf4682bdb591bfc9e0ff0463c0347",
+      "at": "2026-11-17T08:36:41.946Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "GOOGL",
+      "tx": "0xa3da1adf0ed47592809423a7d631b0decedccb56a035fb5c77191d0a73d03f14",
+      "at": "2026-11-17T08:36:41.946Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "META",
+      "tx": "0xbbc9b75b01e00d0949a97607d9e4cd31d1a17a9f326888fe926beadfa2b826ae",
+      "at": "2026-11-17T08:36:41.946Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AMD",
+      "tx": "0x957a105631ecc3ceca1736c029455a651dd8f703abce1ff6ee4451bfd90ae157",
+      "at": "2026-11-17T08:36:41.946Z"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "AAPL",
+      "side": "BUY",
+      "tx": "0x2abf379e081857d3c588036be63054590e726bf7eec980dc02a2b9510040f010",
+      "at": "2026-11-17T08:36:41.946Z"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "TSLA",
+      "side": "BUY",
+      "tx": "0x1e2ced68b9067db4eb4b0014d29e4e8ffbb71b4b1de19e02252c0d21f40c688e",
+      "at": "2026-11-17T08:36:41.946Z"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "AMZN",
+      "side": "BUY",
+      "tx": "0xa378a31a4b86bca350e90e1cce2513542c3750e6b9801b8ec77142cde9c78e23",
+      "at": "2026-11-17T08:36:41.946Z"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "AMD",
+      "side": "BUY",
+      "tx": "0xff4810a69de5867d039112f3fb61150a290b922ffc8f5d7c104bb5701805cff8",
+      "at": "2026-11-17T08:36:41.946Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AAPL",
+      "tx": "0x5f7a8592baa95009bf0e26bb9d8d83466146f16299f0ed71881147186aff1c39",
+      "at": "2026-11-17T12:34:53.795Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "NVDA",
+      "tx": "0x3a88ddef4b1d8d05c0ae1a1c1f1ae42e719355f46a4a2c75dd878200b983f92d",
+      "at": "2026-11-17T12:34:53.795Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "MSFT",
+      "tx": "0x921f38e1203b1ac25d7c21c6c3ac7b7f10ff4cd8f4e95edd9e1742b78fc596f7",
+      "at": "2026-11-17T12:34:53.795Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "TSLA",
+      "tx": "0x222a021599aecbc06155fed565b4a43e6764e84567b53fa6195d68553b8bb922",
+      "at": "2026-11-17T12:34:53.795Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AMZN",
+      "tx": "0x246c989522227d236a392c33c71888a1584c34ebe8a2c0335c7425fdc81cfcfc",
+      "at": "2026-11-17T12:34:53.795Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "GOOGL",
+      "tx": "0xeb26aa978c0659452eca512827e22d45b2a92a207778f15b14011a9b580c0d9f",
+      "at": "2026-11-17T12:34:53.795Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "META",
+      "tx": "0x56464d291ce26e57b9e5c540863084e7fa007110251eaeb765428051ed6e797c",
+      "at": "2026-11-17T12:34:53.795Z"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AMD",
+      "tx": "0x444917c2c969ba491eb21a44169062ecfef9ebc118f080e1db5035d61d46382e",
+      "at": "2026-11-17T12:34:53.795Z"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "AAPL",
+      "side": "BUY",
+      "tx": "0x1a08df53b374bfef23a1d05698287ae6c3aa3bd1918c70082c49cadbdca3f5fc",
+      "at": "2026-11-17T12:34:53.795Z"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "TSLA",
+      "side": "BUY",
+      "tx": "0x9f874d6674e4e6a3f32c1a2572da4e6518d71a9a6b18efc498e518223ee5d84e",
+      "at": "2026-11-17T12:34:53.795Z"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "AMZN",
+      "side": "BUY",
+      "tx": "0x85fab3cf1293db851c0276470d3892c9b99ca34617f4eb50d22fbf293c73b98f",
+      "at": "2026-11-17T12:34:53.795Z"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "AMD",
+      "side": "BUY",
+      "tx": "0xafe065e416d97f0d941afe29beb26be7d8abf290172ac998d4d145d42daff55b",
+      "at": "2026-11-17T12:34:53.795Z"
+    }
+  ],
+  "paperPortfolio": {
+    "tusdc": 1000,
+    "stocks": {
+      "AAPL": 2.798439472154754,
+      "TSLA": 2.554968983858186,
+      "AMZN": 3.738843419740293,
+      "AMD": 1.8668314506941055
+    }
+  },
+  "onChainTxs": [
+    {
+      "type": "setPrice",
+      "ticker": "AAPL",
+      "tx": "0x5f7a8592baa95009bf0e26bb9d8d83466146f16299f0ed71881147186aff1c39"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "NVDA",
+      "tx": "0x3a88ddef4b1d8d05c0ae1a1c1f1ae42e719355f46a4a2c75dd878200b983f92d"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "MSFT",
+      "tx": "0x921f38e1203b1ac25d7c21c6c3ac7b7f10ff4cd8f4e95edd9e1742b78fc596f7"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "TSLA",
+      "tx": "0x222a021599aecbc06155fed565b4a43e6764e84567b53fa6195d68553b8bb922"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AMZN",
+      "tx": "0x246c989522227d236a392c33c71888a1584c34ebe8a2c0335c7425fdc81cfcfc"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "GOOGL",
+      "tx": "0xeb26aa978c0659452eca512827e22d45b2a92a207778f15b14011a9b580c0d9f"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "META",
+      "tx": "0x56464d291ce26e57b9e5c540863084e7fa007110251eaeb765428051ed6e797c"
+    },
+    {
+      "type": "setPrice",
+      "ticker": "AMD",
+      "tx": "0x444917c2c969ba491eb21a44169062ecfef9ebc118f080e1db5035d61d46382e"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "AAPL",
+      "side": "BUY",
+      "tx": "0x1a08df53b374bfef23a1d05698287ae6c3aa3bd1918c70082c49cadbdca3f5fc"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "TSLA",
+      "side": "BUY",
+      "tx": "0x9f874d6674e4e6a3f32c1a2572da4e6518d71a9a6b18efc498e518223ee5d84e"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "AMZN",
+      "side": "BUY",
+      "tx": "0x85fab3cf1293db851c0276470d3892c9b99ca34617f4eb50d22fbf293c73b98f"
+    },
+    {
+      "type": "agentTrade",
+      "ticker": "AMD",
+      "side": "BUY",
+      "tx": "0xafe065e416d97f0d941afe29beb26be7d8abf290172ac998d4d145d42daff55b"
+    }
+  ]
+}
