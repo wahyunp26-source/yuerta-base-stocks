@@ -2,7 +2,7 @@
 
 Post ONLY by Wahyu from @wahyunp17. Do NOT auto-post. Each draft tags @buildonbase.
 Live numbers below verified on-chain 17 Nov 2026 ~20:03 WIB (block 59,993,774).
-⏳ [dApp link] = pending artifact share. ⏳ [repo link] = pending public GitHub push.
+⏳ [dApp link] = pending artifact share. ✅ [repo link] = https://github.com/wahyunp26-source/yuerta-base-stocks (public, 17 Nov ~20:35 WIB).
 
 ---
 
@@ -66,7 +66,7 @@ An autonomous AI agent trading tokenized stocks on Base Sepolia:
 • Free faucet, weekly league, winner badges
 • 18 trades, $18,000 volume, portfolio ~$19,685 — all on Basescan
 
-Demo: [dApp link] | Code: [repo link]
+Demo: [dApp link] | Code: https://github.com/wahyunp26-source/yuerta-base-stocks
 @buildonbase
 
 [ATTACH VIDEO DEMO — ≤3 min walkthrough of the live dApp, see docs/VIDEO-SCRIPT.md]

@@ -34,7 +34,7 @@
 
 ## Links (for the form + X post)
 - ⏳ **dApp (demo) URL: PENDING — artifact `yuerta-stock-agent` is NOT shared publicly yet.** Wahyu must say yes to sharing it (artifact.share), then paste the public URL here + in the X post.
-- ⏳ **Code repo URL: PENDING — no public GitHub repo exists yet.** Workdir `~/workspace/hackathons/base-stocks/` is not a git repo. `.gitignore` already excludes `bot-key.json`, `node_modules/`, `out/`, `.env`. Pushing to `wahyunp26-source` needs Wahyu's git identity/auth (parent's call).
+- ✅ **Code repo URL: https://github.com/wahyunp26-source/yuerta-base-stocks** (public, created + pushed 17 Nov ~20:35 WIB; 32 files, no secrets — `.gitignore` excludes `bot-key.json`, `node_modules/`, `out/`, `.env`).
 - Quest: https://base.org/stocksmaxxing — Rules: https://base.org/stocksmaxxing/rules
 - Basescan (all contracts): https://sepolia.basescan.org/address/0x9A064AE9d8277841DD01210780e9085ECC64Db18 (StockMarket; links to the rest)
 

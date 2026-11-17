@@ -78,6 +78,16 @@ addresses, all "Pass - Verified".
   so status could not be confirmed via API without a key. Fix options: (a) retry the
   Sourcify forward / re-submit after the daily limit resets, or (b) verify directly on
   Basescan with an API key (none available — needs Wahyu's word/key).
+- **RETRY ATTEMPTED 17 Nov 13:33 UTC (~20:33 WIB) — forward CANNOT be re-triggered via re-submit.**
+  Re-submitting TestUSDC to `POST /v2/verify/84532/{address}` returns HTTP 409
+  `already_verified` ("already verified with runtimeMatch and creationMatch both being
+  exact matches") — Sourcify runs no new job for a verified contract, so no new forward
+  attempt happens. The daily-limit reset (00:00 UTC) does NOT unblock this route: a
+  re-submit will still 409. Script for future attempts: `contracts/basescan-forward-check.js`.
+  Basescan status itself could NOT be confirmed: the Basescan website fetch was blocked
+  (HTTP 403), and the V1 API is deprecated (no key). **Remaining path: verify directly on
+  Basescan** — manual web form (needs a browser session) or an API key (needs Wahyu's word).
+  Minor: Sourcify + Blockscout verification already covers source verification.
 - Nothing else remains: Sourcify + Blockscout are done. No further Sourcify retries needed.
 
 ## Cost
